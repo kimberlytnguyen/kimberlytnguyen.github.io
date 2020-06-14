@@ -1697,6 +1697,19 @@
 			height: 100%;
 		}
 
+		.vertical-video-container.vert-align-center{
+		top: 50%;
+		transform: translateY(9%);
+	}
+
+		@media screen and (max-width: 768px) {
+			.vertical-video-container iframe {
+			
+				width: 100%;
+			}
+
+}
+
 		.square-video-container iframe {
 			position: absolute;
 			top: 0;
@@ -1713,10 +1726,7 @@
 			height: 100%;
 		}
 
-			.vertical-video-container.vert-align-center{
-			top: 50%;
-	   	transform: translateY(9%);
-		}
+
 /* Type */
 
 	.blue{
@@ -2732,7 +2742,7 @@
 
 		.image img {
 			display: block;
-			border-radius: 0.25em;
+
 		}
 
 		.image.left, .image.right {
