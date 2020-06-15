@@ -1704,7 +1704,7 @@
 
 		@media screen and (max-width: 768px) {
 			.vertical-video-container iframe {
-			
+
 				width: 100%;
 			}
 
@@ -3231,8 +3231,8 @@
 .centertext {
 	width: 75%;
 	position: absolute;
-	top: 55%;
-  left: 55%;
+	top: 50%;
+  left: 50%;
 	opacity: 0;
 	text-align: center;
 	transform: translate(-50%, -50%);
