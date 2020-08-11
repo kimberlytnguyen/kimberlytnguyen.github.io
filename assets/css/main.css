@@ -2761,7 +2761,6 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		margin: 0 0 1.6em 0;
 	}
 
 		.image.rounded{
@@ -2777,6 +2776,7 @@
 
 		.image img {
 			display: block;
+			margin: 0 0 1.6em 0;
 
 		}
 
@@ -2832,7 +2832,7 @@
 		@media screen and (max-width: 768px) {
 
 			.circle{
-					max-width: 50%;
+					max-width: 75%;
 					margin-left: auto;
 					margin-right: auto;
 
