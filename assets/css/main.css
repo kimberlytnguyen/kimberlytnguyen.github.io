@@ -2010,7 +2010,10 @@
 @media screen and (max-width: 992px) {
 
 	.vert-center{
-		display: block;
+		display: block;}
+
+	.vert-center img {
+		margin-bottom: 2em;
 	}
 
 }
@@ -2802,10 +2805,8 @@
 		@media screen and (max-width: 768px) {
 
 			.image.rounded {
-				border-radius: 0;
-				margin-bottom: 2em;
-			}
-			}
+				border-radius: 0.25em;
+		}
 
 		.image img {
 			display: block;
@@ -2840,7 +2841,7 @@
 		}
 
 		.image.fit.nomargin{
-			margin:0 0 0 0;
+			/* margin:0 0 0 0; */
 		}
 
 			.image.fit img {
@@ -2868,6 +2869,7 @@
 					max-width: 75%;
 					margin-left: auto;
 					margin-right: auto;
+					margin-bottom: 2em;
 
 			}
 
