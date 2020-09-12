@@ -1919,7 +1919,7 @@
 
 		h5 {
 			font-size: 1em;
-			margin-bottom: 0.8em;
+
 		}
 
 		h6 {
@@ -1984,6 +1984,12 @@
 
 		hr.major {
 			margin: 3em 0;
+		}
+
+		hr.blueline{
+			border-bottom: solid 3px rgba(199, 255, 247, 1);
+			max-width: 15%;
+			margin: 0 0 1em 0;
 		}
 
 	.align-left {
@@ -2867,10 +2873,26 @@
 					max-width: 75%;
 					margin-left: auto;
 					margin-right: auto;
+					margin-bottom: 2em;
 
 			}
 
 		}
+
+		#herotitle{
+			padding:8em 0 6em 3em;
+		}
+
+		@media screen and (max-width: 768px) {
+
+			#herotitle{
+				padding:0em 0 5em 1em;
+			}
+
+			}
+
+		}
+
 
 
 /* List */
@@ -3313,9 +3335,9 @@
 }
 
 	@media screen and (max-width: 1280px) {
-		.photobutton{
+		/*.photobutton{
 			border-bottom: 0.25em solid #c7fff7;
-		}
+		}*/
 
 		.photobutton img{
 			opacity: 0.25;
@@ -3331,13 +3353,14 @@
 
 	}
 
-	@media screen and (max-width: 360px) {
-		.photobutton{
+	@media screen and (max-width: 736px) {
+		/*.photobutton{
 			border-bottom: 0.25em solid #c7fff7;
-		}
+		} */
 
 		.photobutton img{
 			opacity: 0.25;
+			border-radius: 0.5em;
 		}
 
 		.photobutton .centertext{
@@ -3348,10 +3371,11 @@
 			visibility: hidden;
 		}
 
+
 	}
 
 .centertext {
-	width: 75%;
+	width: 85%;
 	position: absolute;
 	top: 50%;
   left: 50%;
