@@ -2013,10 +2013,15 @@
   align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+	@media screen and (max-width: 992px) {
 
 	.vert-center{
-		display: block;
+		display: block; }
+
+	.vert-center img {
+		margin-bottom: 2em;
+		border-radius: 0.25em;
+	}
 	}
 
 }
