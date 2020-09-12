@@ -1821,7 +1821,7 @@
 
 		@media screen and (max-width: 768px) {
 			.bigtitle {
-				font-size: 5em; }
+				font-size: 4.5em; }
 	  }
 
 	h1 {
@@ -1895,7 +1895,7 @@
 	}
 
 	h6 {
-		font-size: 0.6em;
+		font-size: 0.8em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1914,7 +1914,7 @@
 		}
 
 		h4 {
-			font-size: 1.1em;
+			font-size: 1.3em;
 		}
 
 		h5 {
@@ -1923,7 +1923,7 @@
 		}
 
 		h6 {
-			font-size: 0.5em;
+			font-size: 0.85em;
 		}
 
 	}
@@ -1988,7 +1988,7 @@
 
 		hr.blueline{
 			border-bottom: solid 3px rgba(199, 255, 247, 1);
-			max-width: 15%;
+			max-width: 10%;
 			margin: 0 0 1em 0;
 		}
 
@@ -2787,7 +2787,7 @@
 	@media screen and (max-width: 768px) {
 
 		.lofty {
-			padding: 1em 0 1em 0;
+			padding: 1em 0 2em 0;
 		}
 		}
 
