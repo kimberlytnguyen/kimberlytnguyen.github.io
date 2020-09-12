@@ -948,6 +948,10 @@ img {
     padding-bottom: 177.78%;
   }
 
+  .embed-responsive-1by1 {
+    padding-bottom: 100%;
+  }
+
   @media (min-width: 768px){
     .embed-responsive-9by16 {
       max-width: 100%;
