@@ -2026,10 +2026,6 @@
 }
 
 
-	.space {
-		margin-bottom: 1.5em;
-	}
-
 /* Box */
 
 	.box {
@@ -2795,6 +2791,10 @@
 		}
 		}
 
+		.cushion-bottom{
+			margin: 0 0 1.5em 0;
+		}
+
 
 
 /* Image */
@@ -2844,7 +2844,6 @@
 
 		.image.fit {
 			display: block;
-
 			width: 100%;
 		}
 
