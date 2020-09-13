@@ -1992,6 +1992,12 @@
 			margin: 0 0 1em 0;
 		}
 
+		hr.blueline-sm{
+			border-bottom: solid 2px rgba(199, 255, 247, 1);
+			max-width: 20%;
+			margin: 0 auto 1em auto;
+		}
+
 	.align-left {
 		text-align: left;
 	}
@@ -3371,7 +3377,7 @@
 		}
 
 		.photobutton h6{
-			visibility: hidden;
+				display: none;
 		}
 
 
@@ -3381,7 +3387,7 @@
 	width: 85%;
 	position: absolute;
 	top: 50%;
-  left: 50%;
+	left: 50%;
 	opacity: 0;
 	text-align: center;
 	transform: translate(-50%, -50%);
