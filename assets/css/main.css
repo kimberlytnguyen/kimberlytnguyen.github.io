@@ -1821,7 +1821,7 @@
 
 		@media screen and (max-width: 768px) {
 			.bigtitle {
-				font-size: 4.5em; }
+				font-size: 4.2em; }
 	  }
 
 	h1 {
@@ -2818,7 +2818,7 @@
 		@media screen and (max-width: 768px) {
 
 			.image.rounded {
-				border-radius: 0;
+				border-radius: 0.25;
 			}
 			}
 
@@ -3368,8 +3368,8 @@
 		} */
 
 		.photobutton img{
-			opacity: 0.25;
-			border-radius: 0.5em;
+			opacity: 0.15;
+
 		}
 
 		.photobutton .centertext{
