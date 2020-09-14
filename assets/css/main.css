@@ -1992,11 +1992,20 @@
 			margin: 0 0 1em 0;
 		}
 
-		hr.blueline-sm{
-			border-bottom: solid 2px rgba(199, 255, 247, 1);
-			max-width: 20%;
-			margin: 0 auto 1em auto;
+		br.mobile-break{
+			display: none;
 		}
+
+		@media (max-width:736px){
+			br.mobile-break{
+				display:block;
+			}
+
+			.mobile-space{
+				margin-top: 1em;
+			}
+		}
+
 
 	.align-left {
 		text-align: left;
@@ -2899,7 +2908,7 @@
 			}
 
 			#mobile-pushup{
-				padding:0em 0em 4em 0em; 
+				padding:0em 0em 6em 0em;
 			}
 
 			}
