@@ -2006,6 +2006,15 @@
 			}
 		}
 
+	.desktop-space{
+		margin-top:1em;
+	}
+
+	@media (max-width: 960px){
+		.desktop-space{
+			margin-top: 0em;
+		}
+	}
 
 	.align-left {
 		text-align: left;
